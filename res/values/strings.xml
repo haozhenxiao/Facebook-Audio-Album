@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudioAlbum</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">672193739512951</string>
+    <string name="capture">Take a picture</string>
+    <string name="gallery">Choose from gallery</string>
+    <string name="camera">Add a picture</string>
+    <string name="notice">Messages</string>
+    <string name="intro">Capture a picture to crop!</string>
+    <string name="picture">Picture</string>
+    <string name="capture">Launch Camera</string>
+
+</resources>

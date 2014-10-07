@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" 
+        android:background="#F0F0F0">
+
+        <ImageView
+            android:id="@+id/poster_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_marginLeft="2dp">
+            
+            <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="Hao Zhenxiao"
+            android:textColor="#4c66a4"
+            android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="5 hours"
+            android:textColor="#808080"/>       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/user_info" />
+    
+    <LinearLayout
+        android:id="@+id/detail_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/post_image" >
+        
+      <LinearLayout
+          android:id="@+id/like_detail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#F0F0F0"
+          android:padding="2dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="5dp">
+      <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/heart_icon" />       
+      <TextView
+          android:id="@+id/num_of_likes"
+          android:layout_height="20dp"
+          android:layout_width="wrap_content"
+          android:text="100"
+          android:textColor="#808080"/>
+      </LinearLayout>
+      
+      <LinearLayout
+          android:id="@+id/comment_detail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="#F0F0F0"
+          android:padding="2dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="5dp">
+      <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/comment_icon" />       
+      <TextView
+          android:id="@+id/num_of_likes"
+          android:layout_height="20dp"
+          android:layout_width="wrap_content"
+          android:text="100"
+          android:textColor="#808080"/>
+      </LinearLayout>
+      
+        
+   </LinearLayout>
+        
+
+</RelativeLayout>

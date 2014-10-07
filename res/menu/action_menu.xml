@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_camera"
+          android:icon="@drawable/camera_button"
+          android:title="@string/camera"
+          android:orderInCategory="1"
+          android:showAsAction="always"/>
+    <item android:id="@+id/action_notice"
+          android:icon="@drawable/notice_button"
+          android:title="@string/notice"
+          android:orderInCategory="2"
+          android:showAsAction="always"/>
+</menu>
